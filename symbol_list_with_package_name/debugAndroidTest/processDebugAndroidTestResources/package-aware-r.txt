@@ -1,3 +1,0 @@
-com.example.EventTrackingOptionTwoEngredVanegas.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

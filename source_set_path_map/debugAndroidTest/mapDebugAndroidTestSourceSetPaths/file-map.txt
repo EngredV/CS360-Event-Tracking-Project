@@ -1,5 +1,0 @@
-com.example.EventTrackingOptionTwoEngredVanegas.test.app-core-1.6.0-0 /Users/engred/.gradle/caches/transforms-4/34b3e8fb4078970cd62e71713111aa18/transformed/core-1.6.0/res
-com.example.EventTrackingOptionTwoEngredVanegas.test.app-androidTest-1 /Users/engred/AndroidStudioProjects/EventTrackingOptionTwoEngredVanegas/app/build/generated/res/resValues/androidTest/debug
-com.example.EventTrackingOptionTwoEngredVanegas.test.app-mergeDebugAndroidTestResources-2 /Users/engred/AndroidStudioProjects/EventTrackingOptionTwoEngredVanegas/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.EventTrackingOptionTwoEngredVanegas.test.app-mergeDebugAndroidTestResources-3 /Users/engred/AndroidStudioProjects/EventTrackingOptionTwoEngredVanegas/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.EventTrackingOptionTwoEngredVanegas.test.app-debugAndroidTest-4 /Users/engred/AndroidStudioProjects/EventTrackingOptionTwoEngredVanegas/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
