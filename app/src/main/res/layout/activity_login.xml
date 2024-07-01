@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    tools:ignore="HardcodedText">
+
+    <ImageButton
+        android:id="@+id/image_button_signin_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="Back Button"
+        android:src="@drawable/arrow_back" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-80dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Schedufy Logo"
+        android:padding="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/text_view_welcome_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-70dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:padding="40dp"
+        android:text="Welcome back!"
+        android:textColor="@color/very_light_blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_view_email_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="-90dp"
+        android:fontFamily="@font/roboto_mono"
+        android:padding="40dp"
+        android:text="Email or username"
+        android:textColor="@color/very_light_blue"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_text_field_signin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Email or Username"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_field_signin_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/very_light_blue"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/text_view_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="-130dp"
+        android:fontFamily="@font/roboto_mono"
+        android:padding="40dp"
+        android:text="Password"
+        android:textColor="@color/very_light_blue"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filled_text_field_signin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Password"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_field_signin_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/crossed_eye"
+            android:elevation="1dp"
+            android:inputType="textPassword"
+            android:textColor="@color/very_light_blue"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:text="Forgot Password?"
+        android:textColor="#5C5C5C"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/roboto_mono"
+        android:padding="20dp"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
