@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:textColor="@color/very_light_blue"
+        android:gravity="center"
+        android:text="Event Title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_mono"
+        android:textColor="@color/very_light_blue"
+        android:text="Event Date" />
+
+    <TextView
+        android:id="@+id/text_view_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono"
+        android:gravity="center"
+        android:textColor="@color/very_light_blue"
+        android:text="Event Time" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono"
+        android:gravity="center"
+        android:textColor="@color/very_light_blue"
+        android:text="Event Description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/delete_event"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono"
+            android:backgroundTint="#202020"
+            android:textColor="#FF0000"
+            android:padding="10dp"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/edit_event"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/roboto_mono"
+            android:backgroundTint="#202020"
+            android:textColor="#0096FF"
+            android:padding="10dp"
+            android:text="Edit" />
+
+    </LinearLayout>
+</LinearLayout>
